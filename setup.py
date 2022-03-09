@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
   name="transmute-common",
-  version="0.0.2",
+  version="0.0.3",
   author="Adrian Flannery",
   author_email="aflannery@uabmc.edu",
   description="A package to support ETL creation within Transmute",
@@ -10,7 +10,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   classifiers=[
       "Programming Language :: Python :: 3",
-      "License :: OSI Approved :: MIT License",
+      "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
       "Operating System :: OS Independent",
   ],
   python_requires='>=3.6',
