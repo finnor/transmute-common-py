@@ -1,10 +1,10 @@
 # A package to support ETL creation within [Transmute](https://github.com/finnor/Transmute)
 
-## Prototypes
-Prototypes are creator methods in Transmute for instantiating a model with its requisite fields while prefilling the model with the supplied fields. 
+## Factories
+Factories are creator methods in Transmute for instantiating a model with its requisite fields while prefilling the model with the supplied fields.
 
 #### Usage
-    from transmute_common.prototypes import patient as patientFactory
+    from transmute_common.factories import patient as patientFactory
 
     patientInfo = {
         "patientId": "patient-01",
@@ -25,7 +25,7 @@ Prototypes are creator methods in Transmute for instantiating a model with its r
         ...
     }
 
-#### Prototype Models
+#### Factory Models
 
 * patient
 * sample
@@ -35,3 +35,5 @@ Prototypes are creator methods in Transmute for instantiating a model with its r
 * cnv
 * fusionAnalysis
 * fusion
+* ihcAnalysis
+* ihc
