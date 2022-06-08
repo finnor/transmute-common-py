@@ -1,8 +1,4 @@
 def create(values = None):
-  # "device": {
-  #   "id": ...
-  #   "type": ...
-  # }
   record = {
     "sampleId": None,
     "analysisName": None,
@@ -14,7 +10,6 @@ def create(values = None):
     "subpanelName": None,
     "subpanelType": None,
     "qcFailed": None,
-    "device": None,
     "calls": []
   }
   if values!=None:

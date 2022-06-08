@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
   name="transmute-common",
-  version="0.0.6",
+  version="0.0.7",
   author="Adrian Flannery",
   author_email="aflannery@uabmc.edu",
   description="A package to support ETL creation within Transmute",

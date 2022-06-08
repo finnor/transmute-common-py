@@ -37,3 +37,5 @@ Factories are creator methods in Transmute for instantiating a model with its re
 * fusion
 * ihcAnalysis
 * ihc
+* biomarkerAnalysis
+* biomarker

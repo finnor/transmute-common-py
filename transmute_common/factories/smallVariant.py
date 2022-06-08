@@ -1,6 +1,5 @@
 def create(values = None):
   record = {
-    "sampleId": None,
     "inReport": None,
     "ampTier": None,
     "acmgTier": None,
