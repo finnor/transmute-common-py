@@ -1,6 +1,7 @@
 def create(values = None):
   record = {
     "genomeBuild": None,
+    "coordinateSystem": None,
     "chrom": None,
     "gene": None,
     "refCN": None,
@@ -14,7 +15,8 @@ def create(values = None):
     "call": None,
     "location": None,
 
-    "interpretation": None
+    "interpretation": None,
+    "therapyRecommendation": None,
   }
   if values!=None:
     record.update(values)

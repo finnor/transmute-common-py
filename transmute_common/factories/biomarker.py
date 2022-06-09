@@ -7,7 +7,6 @@ def create(values = None):
     "interpretation": None,
     "threshold": None,
     "component": None,
-    "genomicSource": None,
     "therapyRecommendation": None,
   }
   if values!=None:

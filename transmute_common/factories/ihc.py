@@ -6,8 +6,6 @@ def create(values = None):
     "threshold": None,
     "component": None,
     "gene": None,
-    "genomicSource": None,
-    "equivocal": None,
     "therapyRecommendation": None,
     "expressionType": None,
     "intensity": None,
