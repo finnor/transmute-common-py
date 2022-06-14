@@ -10,18 +10,6 @@ def create(values = None):
   #     "text": ...
   #   }
   # }
-  #
-  #
-  # "collection": {
-  #   "type": {
-  #     "coding": [
-  #       "system",
-  #       "code",
-  #       "display",
-  #     ],
-  #     "text": ...
-  #   }
-  # }
   # "bodySite": {
   #   "type": {
   #     "coding": [
@@ -44,11 +32,8 @@ def create(values = None):
     "indication": None,
     "sourceType": None,
     "specimen": None,
-    "receivedTime": None,
-    "collector": None,
-    "collectedTime": None,
-    "age": None,
-    "bodySite": None
+    "bodySite": None,
+    "age": None
   }
   if values!=None:
     record.update(values)

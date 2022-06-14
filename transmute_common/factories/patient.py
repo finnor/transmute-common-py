@@ -9,7 +9,7 @@ def create(values = None):
   record = {
     "patientId": None,
     "name": None,
-    "managingOrganization": None,
+    "mrnFacility": None,
     "sex": None,
     "race": None,
     "ethnicity": None,
