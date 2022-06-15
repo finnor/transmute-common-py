@@ -1,4 +1,8 @@
 def create(values = None):
+  # "therapyRecommendation": {
+  #   "therapyName": []
+  #   "therapySensitivity": ...
+  # }
   record = {
     "calledBy": None,
     "genomeBuild": None,
@@ -16,7 +20,8 @@ def create(values = None):
     "start": None,
     "end": None,
     "readDepth": None,
-
+    "interpretation": None,
+    "therapyRecommendation": None,
   }
   if values!=None:
     record.update(values)

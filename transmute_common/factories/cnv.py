@@ -1,5 +1,10 @@
 def create(values = None):
+  # "therapyRecommendation": {
+  #   "therapyName": []
+  #   "therapySensitivity": ...
+  # }
   record = {
+    "calledBy": None,
     "genomeBuild": None,
     "coordinateSystem": None,
     "chrom": None,
@@ -14,7 +19,6 @@ def create(values = None):
     "hotspot": None,
     "call": None,
     "location": None,
-
     "interpretation": None,
     "therapyRecommendation": None,
   }

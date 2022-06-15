@@ -1,6 +1,5 @@
 def create(values = None):
   record = {
-    "inReport": None,
     "ampTier": None,
     "acmgTier": None,
     "alternativeTierSystems": None,
@@ -41,10 +40,10 @@ def create(values = None):
     "hgvsC": None,
     "hgvsP": None,
     "hgvsPShort": None,
-    "interpretation": None,
-    "therapyRecommendation": None,
     "hotspot": None,
     "zygosity": None,
+    "interpretation": None,
+    "therapyRecommendation": None,
   }
   if values!=None:
     record.update(values)

@@ -1,16 +1,20 @@
 def create(values = None):
+  # "therapyRecommendation": {
+  #   "therapyName": []
+  #   "therapySensitivity": ...
+  # }
   record = {
     "test": None,
     "value": None,
-    "interpretation": None,
     "threshold": None,
     "component": None,
     "gene": None,
-    "therapyRecommendation": None,
     "expressionType": None,
     "intensity": None,
     "stainPercent": None,
     "result": None,
+    "interpretation": None,
+    "therapyRecommendation": None,
   }
   if values!=None:
     record.update(values)
